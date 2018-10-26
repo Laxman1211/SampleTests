@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+	<test name="@Parameter Concept of TestNG">
+		<classes>
+			<class name="com.testng.part2.TestDataprovider"></class>
+		</classes>
+	</test>
+</suite>
+
+
+<!-- parameter concept code below -->
+<!-- <parameter name="url" value="https://github.com/"></parameter>
+	<parameter name="username" value="p.laxman1211@gmail.com"></parameter>
+	<parameter name="password" value="Satyam@123"></parameter> -->
+	
+	
+	<!-- include/exclude test methods 
+	<classes>
+		<class name="com.testng.part2.TestngGropusTest">
+		<methods>
+        <include name="b" />
+        <include name="e" />
+        <exclude name="c" />
+      </methods>
+      </class>
+		</classes> -->
+		

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test name="srcFolder Classes(failed)">
+    <classes>
+      <class name="com.testng.tests.InfiniteLoopTest">
+        <methods>
+          <include name="infiniteLoop"/>
+        </methods>
+      </class> <!-- com.testng.tests.InfiniteLoopTest -->
+      <class name="com.testng.tests.KhadarTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testng.tests.KhadarTest -->
+      <class name="com.testng.tests.LaxmanTest">
+        <methods>
+          <include name="test3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testng.tests.LaxmanTest -->
+      <class name="com.testng.tests.DependsOnMethodsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testng.tests.DependsOnMethodsTest -->
+    </classes>
+  </test> <!-- srcFolder Classes(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
